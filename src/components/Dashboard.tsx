@@ -2,11 +2,13 @@ export default function Dashboard() {
     return (
         <>
             <header>
-                <h1>Kat's Social Media App</h1>
+                <img className="logo" src="./assets/radical-logo.svg" alt="The hydroxyl radical symbol. White capital H dash capital O. There are two baby blue dots above the capital O a white dot to the right of the capital O and two baby pink dots below the capital O." />
+                <h1>Radical&bull;</h1>
             </header>
             <main>
-                <h2>Work in progress...</h2>
-                <p>Please be patient</p>
+                <small>The Woke social media app</small>
+                <h2>Work in Progress</h2>
+                <p>Inspire me, my friend...</p>
             </main>
         </>
     )
