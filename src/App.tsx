@@ -1,6 +1,6 @@
-export default function App() {
-  const currentYear = new Date().getFullYear();
+import Footer from "./components/Footer";
 
+export default function App() {
   return (
     <>
       <header>
@@ -10,9 +10,7 @@ export default function App() {
         <h2>Work in progress...</h2>
         <p>Please be patient</p>
       </main>
-      <footer>
-        <small>copyright &copy; {currentYear} Reed Development</small>
-      </footer>
+      <Footer/>
     </>
   )
 }
